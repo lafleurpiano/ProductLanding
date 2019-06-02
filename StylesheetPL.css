@@ -9,14 +9,14 @@
     height: auto;
     width: auto;
 }
-.nav-link {
-    text-align: justify;
-    padding: 20px;
-    margin: 20px;
 
-
-}
 h1 {
+    font-family: Countryside, "Comic Sans MS" ;
+}
+h2 {
+    font-family: Countryside, "Comic Sans MS" ;
+}
+h3 {
     font-family: Countryside, "Comic Sans MS" ;
 }
 .wrapper {overflow: auto;}
@@ -34,7 +34,7 @@ h1 {
 
 }
 
-.menuitem {
+.nav-link{
     background: #edd7f6;
     border: 2px solid #d46059;
     border-radius: 4px;
@@ -42,6 +42,7 @@ h1 {
     margin: 4px;
     padding: 2px;
     font-size: 24px;
+    text-align: justify;
 
 }
 
