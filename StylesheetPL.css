@@ -1,0 +1,51 @@
+#header-img {
+    display: block;
+    box-shadow: azure;
+}
+#submit {
+    href="https://www.freecodecamp.com/email-submit"
+}
+#video {
+    height: auto;
+    width: auto;
+}
+.nav-link {
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+
+
+}
+h1 {
+    font-family: Countryside, "Comic Sans MS" ;
+}
+.wrapper {overflow: auto;}
+
+#main {margin-left: 10px;}
+
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+
+#menulist {
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.menuitem {
+    background: #edd7f6;
+    border: 2px solid #d46059;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    font-size: 24px;
+
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+}
