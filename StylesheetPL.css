@@ -3,9 +3,13 @@
     box-shadow: azure;
     width: 40vm;
 }
-#submit {
-    href="https://www.freecodecamp.com/email-submit"
+#form {
+    href="https://www.freecodecamp.com/email-submit" alt="Counting the Number of Emails.";
 }
+.button{
+    cursor: pointer;
+}
+
 #video {
     height: auto;
     width: auto;
@@ -28,7 +32,12 @@ h3 {
     float: none;
     width: auto;
 }
+#yarn-pics {
+    justify-content: space-around;
+    display: flex;
 
+
+}
 #menulist {
     margin: 5px;
     padding: 5px;
