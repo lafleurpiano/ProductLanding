@@ -1,11 +1,12 @@
 #header-img {
     display: block;
-    box-shadow: azure;
+    box-shadow: brown;
+    color: rgba(1,1,1,1);
     width: 40vm;
 }
-#form {
-    href="https://www.freecodecamp.com/email-submit" alt="Counting the Number of Emails.";
-}
+/*#form {*/
+/*    href="https://www.freecodecamp.com/email-submit" alt="Counting the Number of Emails.";*/
+/*}*/
 .button{
     cursor: pointer;
 }
@@ -15,29 +16,43 @@
     width: auto;
 }
 
-h1 {
-    font-family: Countryside, "Comic Sans MS" ;
-}
-h2 {
-    font-family: Countryside, "Comic Sans MS" ;
-}
-h3 {
-    font-family: Countryside, "Comic Sans MS" ;
-}
-.wrapper {overflow: auto;}
+.block {
 
-#main {margin-left: 10px;}
+    display: block;
+    padding: 5px;
+
+
+}
+
+h1, h2, h3 {
+    font-family: "Pinyon Script", "Rouge Script", script;
+}
+
+.wrapper {
+    overflow: auto;
+}
+
+#main {
+    margin-left: 10px;
+}
 
 #leftsidebar {
     float: none;
     width: auto;
 }
 #yarn-pics {
-    justify-content: space-around;
     display: flex;
-
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
 
 }
+#yarn-pics img {
+    max-width: 33%;
+    padding: 10px;
+
+}
+
 #menulist {
     margin: 5px;
     padding: 5px;
@@ -48,14 +63,24 @@ h3 {
 }
 
 .nav-link{
-    background: #edd7f6;
-    border: 2px solid #d46059;
+    background: #98f6a1;
+    border: 2px solid #2dd467;
     border-radius: 4px;
     list-style-type: none;
     margin: 4px;
     padding: 2px;
     font-size: 24px;
     text-align: justify;
+
+
+}
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    color: #faffa1;
+    position: relative;
 
 }
 

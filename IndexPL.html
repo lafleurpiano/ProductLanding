@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link type="text/css" rel="stylesheet" href="StylesheetPL.css">
-    <link type="" rel="YarnImages"
-    <link href="https://www.fontspace.com/billy-argel/countryside" rel="stylesheet" type="text/css">
+    <link href="StylesheetPL.css" rel="stylesheet" type="text/css"/>
+    <link rel="YarnImages" type=""/>
+    <link href="https://fonts.googleapis.com/css?family=Rouge+Script&display=swap" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet" type="text/css"/>
 
     <meta charset="UTF-8">
     <title>Product Landing: Big Bad Wool</title>
 </head>
+
+<body>
 <header id="header">
 
 
     <nav id="nav-bar">
-        <a href="#yarns" class="nav-link">Yarns</a>
-        <a href="#colors"class="nav-link">Colors</a>
-        <a href="#prices"class="nav-link">Prices</a></nav>
+        <a class="nav-link" href="#yarns">Yarns</a>
+        <a class="nav-link" href="#colors">Colors</a>
+        <a class="nav-link" href="#prices">Prices</a>
+    </nav>
 
     <br>
-    <img src="http://cdn2.bigcommerce.com/n-d57o0b/r1ljgcy/product_images/Site_Logo_copy.jpg" alt="Big Bad Wool Logo" id="header-img">
+    <img alt="Big Bad Wool Logo" id="header-img"
+         src="http://cdn2.bigcommerce.com/n-d57o0b/r1ljgcy/product_images/Site_Logo_copy.jpg">
     <hr>
 </header>
 <h1>A site for all your woolen needs.</h1>
 
-<body>
-
 <section>
 
-    <iframe id="video" src="https://www.youtube.com/watch?v=FJgcjf8Jr8w" alt="Review-of-weepaca">
-    </iframe>
+    <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" height="315" id="video" src="https://www.youtube.com/embed/FJgcjf8Jr8w" width="560"></iframe>
+
 
     <p>Review of Weepaca Yarn</p>
     <br>
@@ -36,9 +39,9 @@
 <h3 id="yarns">Types of Yarns </h3>
 <br>
 <figure id="yarn-pics">
-    <img src="BabyYeti-Chunky.jpg" alt="Baby Yeti Chunky">
-    <img src="PonPon.jpg" alt="Pon Pon">
-    <img src="Weepaca.jpg" alt="Weepaca">
+    <img alt="Baby Yeti Chunky" src="YarnImages/BabyYeti-Chunky.jpg"/>
+    <img alt="Pon Pon" src="YarnImages/PonPon.jpg"/>
+    <img alt="Weepaca" src="YarnImages/Weepaca.jpg"/>
 </figure>
 <br>
 
@@ -52,19 +55,23 @@
 <p> [Add pictures here with multiple choices] </p>
 <br>
 
-<form id="form" action="https://www.freecodecamp.com/email-submit">
+<form action="https://www.freecodecamp.com/email-submit" id="form" method="post">
     <p>For more information about our products and special promotions, please enter your email address!</p>
-    <label for="email-label" required id="email-label"> Email
-        <input id="email" type="email" placeholder="Enter Email " ></label>
-    <input id="submit" type="submit" class="button">
 
+    <label class="block" for="name" required> Name
+        <input id="name" name="name" placeholder="Enter Name" type="text"/></label>
+
+
+    <label class="block" for="email" required> Email
+
+        <input id="email" name="email" placeholder="Enter Email " type="email"/> </label>
+
+    <input class="button" id="submit" type="submit"/>
 
 
     <br>
     <br>
     <br>
-
-
 
 
 </form>
